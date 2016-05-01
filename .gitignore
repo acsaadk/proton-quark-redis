@@ -31,3 +31,9 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
+
+# MacOS specific
+.DS_Store
+
+# Redis dump files
+*.rdb

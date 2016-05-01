@@ -1,0 +1,38 @@
+{
+  "name": "proton-quark-redis",
+  "version": "1.0.0",
+  "description": "Quark to manipulate Redis databases",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "./node_modules/mocha/bin/mocha -R spec ./test/*.js"
+  },
+  "author": "Antonio Saad",
+  "license": "ISC",
+  "dependencies": {
+    "proton-quark": "^1.0.0",
+    "ioredis": "^1.15.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": ">= 0.0.1",
+    "require-all": "^2.0.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/acsaadk/proton-quark-redis.git"
+  },
+  "keywords": [
+    "Redis",
+    "Quark",
+    "Proton",
+    "Microframework"
+  ],
+  "bugs": {
+    "url": "https://github.com/acsaadk/proton-quark-redis/issues"
+  },
+  "homepage": "https://github.com/acsaadk/proton-quark-redis/blob/master/README.md"
+}
